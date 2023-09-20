@@ -29,5 +29,10 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
+  },
+  "paths": {
+    "@model": ["src/app/shared/model"],
+    "@mock": ["src/app/shared/mock"],
+    "@shared-components": ["src/app/shared/components"]
   }
 }
